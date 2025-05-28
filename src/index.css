@@ -35,3 +35,18 @@ body {
   font-family: "Melodrama-Light";
   src: url("/fonts/Melodrama-Light.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: "Melodrama-Bold";
+  src: url("/fonts/Melodrama-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Melodrama-Regular";
+  src: url("/fonts/Melodrama-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Melodrama-Semibold";
+  src: url("/fonts/Melodrama-Semibold.woff2") format("woff2");
+}
