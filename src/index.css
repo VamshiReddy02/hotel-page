@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+body {
+  background-color: #e8e4d9;
+}
+
+
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url("/fonts/Manrope-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-ExtraBold";
+  src: url("/fonts/Manrope-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-ExtraLight";
+  src: url("/fonts/Manrope-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-Light";
+  src: url("/fonts/Manrope-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url("/fonts/Manrope-Regular.ttf") format("truetype");
+}
