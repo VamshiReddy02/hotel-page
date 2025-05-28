@@ -16,6 +16,7 @@ const config: Config = {
                 "Manrope-ExtraLight": ["Manrope-ExtraLight", "sans-serif"],
                 "Manrope-Light": ["Manrope-Light", "sans-serif"],
                 "Manrope-Regular": ["Manrope-Regular", "sans-serif"],
+                "Melodrama-Light": ["Melodrama-Light", "sans-serif"],
             },
             backgroundImage: {
                 'custom-gradient': 'linear-gradient(to bottom, #666 0%, #f0f0f0 20%, #999 100%)',
