@@ -1,10 +1,10 @@
 
 const Intro = () => {
   return (
-    <section className="h-screen px-3 md:px-4 lg:px-10">
+    <section className="px-3 md:px-4 lg:px-10">
         <div className="py-20">
-            <div className="flex justify-start items-center">
-                <h1 className="text-2xl md:text-4xl lg:text-9xl xl:text-[15rem] font-Melodrama-Semibold">deco.</h1>
+            <div className="flex justify-center md:justify-start items-center">
+                <h1 className="font-Melodrama-Semibold text-8xl md:text-9xl lg:text-[15rem]">deco.</h1>
             </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 px-3 md:px-4 font-Manrope-Extra-light gap-30">

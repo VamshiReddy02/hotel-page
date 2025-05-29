@@ -40,11 +40,11 @@ const Gallery = () => {
   return (
     <section className="px-3 md:px-4 lg:px-10">
         <div className="py-20">
-            <div className="flex justify-end mt-14 ml-2">
-                <h1 className="font-Melodrama-Bold text-2xl md:text-4xl lg:text-[15rem]">gallery.</h1>
+            <div className="flex justify-center lg:justify-end mt-14 ml-2">
+                <h1 className="font-Melodrama-Bold text-8xl mb-20 md:text-9xl md:mb-20 lg:text-[15rem]">gallery.</h1>
             </div>
             <div>
-                <div className="flex items-center gap-8 font-Melodrama-Bold text-2xl md:text-4xl lg:text-5xl">
+                <div className="flex items-center justify-center md:justify-start gap-8 font-Melodrama-Bold text-2xl md:text-4xl lg:text-5xl">
                     <button onClick={() => setSelected("classic")} className={`underline-offset-4 uppercase italic ${selected === "classic" ? "underline" : ""}`}>classic</button>
                     <button onClick={() => setSelected("mini")} className={`underline-offset-4 ${selected === "mini" ? "underline" : ""}`}>mini</button>
                 </div>
