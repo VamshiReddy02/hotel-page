@@ -1,3 +1,4 @@
+import Amenities from "./sections/Amenities/Amenities"
 import Gallery from "./sections/Gallery/Gallery"
 import Hero from "./sections/Hero/Hero"
 import Intro from "./sections/Intro/Intro"
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Intro />
       <Gallery />
+      <Amenities />
     </>
   )
 }

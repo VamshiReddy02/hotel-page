@@ -45,7 +45,7 @@ const Gallery = () => {
             </div>
             <div>
                 <div className="flex items-center gap-8 font-Melodrama-Bold text-2xl md:text-4xl lg:text-5xl">
-                    <button onClick={() => setSelected("classic")} className={`underline-offset-4 ${selected === "classic" ? "underline" : ""}`}>classic</button>
+                    <button onClick={() => setSelected("classic")} className={`underline-offset-4 uppercase italic ${selected === "classic" ? "underline" : ""}`}>classic</button>
                     <button onClick={() => setSelected("mini")} className={`underline-offset-4 ${selected === "mini" ? "underline" : ""}`}>mini</button>
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-14'>
