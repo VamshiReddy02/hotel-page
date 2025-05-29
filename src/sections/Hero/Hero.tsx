@@ -10,12 +10,13 @@ const Hero = () => {
     offset: ['start end', 'center center'],
   })
 
-  const width = useTransform(scrollYProgress, [0, 1], ['85vw', '100vw'])
+  const width = useTransform(scrollYProgress, [0, 1], ['5vw', '100vw'])
   const height = useTransform(scrollYProgress, [0, 1], ['85vh', '100vh'])
+  const borderTopRadius = useTransform(scrollYProgress, [0, 1], ['65% 50% 0 0', '0%'])
 
   return (
     <section className='relative overflow-x-hidden'>
-        <div className='py-20'>
+        <div className='mt-20'>
             <div className='flex flex-col justify-center items-center gap-2 text-center text-2xl md:text-4xl lg:text-8xl'>
                 <h1 className='font-Manrope-Extra-bold max-w-5xl leading-snug tracking-tighter'>there is no place like</h1>
                 <span className="font-Melodrama-Light italic text-[10rem]">home</span>
@@ -32,6 +33,8 @@ const Hero = () => {
             right: 0,
             margin: '0 auto',
             overflow: 'hidden',
+            borderTopLeftRadius: borderTopRadius,
+            borderTopRightRadius: borderTopRadius,
           }}
         >
           <img
