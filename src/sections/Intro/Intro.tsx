@@ -27,7 +27,7 @@ const Intro = () => {
                     <a
                         href="#"
                         style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${image2})` }}
-                        className="font-Melodrama-Semibold border border-black rounded-full px-9 py-6 text-lg w-50 text-center bg-cover bg-center text-white uppercase"
+                        className="font-Melodrama-Semibold border border-black rounded-full px-9 py-6 text-2xl w-50 text-center bg-cover bg-center text-white uppercase"
                     >
                         mini
                     </a>
